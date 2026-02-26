@@ -1,0 +1,39 @@
+{
+  "name": "gh-sdk",
+  "version": "0.1.0",
+  "description": "A GitHub SDK for TypeScript",
+  "module": "index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "GitHub",
+    "SDK",
+    "API",
+    "typescript",
+    "bun"
+  ],
+  "author": "Anurag Daksh",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.5.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
