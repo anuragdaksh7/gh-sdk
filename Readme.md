@@ -1,6 +1,5 @@
 # Github SDK
 
-
 ## Routes
 
 Auth
