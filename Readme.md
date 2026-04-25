@@ -2,6 +2,7 @@
 
 ## Routes
 
+
 Auth
 ```http
 GET /user
