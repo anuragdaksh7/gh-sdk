@@ -7,6 +7,7 @@ Auth
 GET /user
 ```
 
+
 Repositories (Core)
 ```http
 GET    /user/repos
